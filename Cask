@@ -5,4 +5,4 @@
 (development
  (depends-on "cask")
  (depends-on "ert-runner")
- (depends-on "undercover"))
+ (depends-on "undercover" :git "https://github.com/sviridov/undercover.el" :branch "curl-shut-up"))
